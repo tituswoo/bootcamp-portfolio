@@ -84,6 +84,7 @@ header h1 {
 .col {
   padding: 10px;
   margin-right: 20px;
+  min-width: 270px;
   flex-grow: 1;
 }
 
@@ -93,7 +94,6 @@ header h1 {
 
 .timeline {
   list-style: none;
-  min-width: 270px;
 }
 
 .timeline li {
@@ -115,7 +115,7 @@ header h1 {
   margin-right: 10px;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 900px) {
   .row {
     flex-direction: column;
   }
