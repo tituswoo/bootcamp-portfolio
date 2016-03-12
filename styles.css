@@ -83,7 +83,7 @@ header h1 {
 
 .col {
   padding: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
   flex-grow: 1;
 }
 
@@ -118,5 +118,9 @@ header h1 {
 @media (max-width: 670px) {
   .row {
     flex-direction: column;
+  }
+
+  .col {
+    margin-right: 0;
   }
 }
